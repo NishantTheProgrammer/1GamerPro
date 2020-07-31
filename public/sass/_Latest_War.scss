@@ -1,0 +1,134 @@
+.Latest_War {
+    
+    .Latest_War_text {
+        @include background("../img/latest_war_img.png");
+        height: 580px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 40px;
+        @media #{$tab}{
+            height: 400px;
+            margin-bottom: 0;
+        }
+        @media #{$medium_device}{
+        
+        }
+        &:after {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            @extend %custom_btn_bg_1;
+            content: "";
+            background-size: 200% auto;
+            opacity: 0;
+            @include transition;
+        }
+        .btn_2 {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 45%;
+            text-align: center;
+            display: inline-block;
+            z-index: 9;
+            opacity: 0;
+            width: 200px;
+            padding: 18.5px 0;
+        }
+
+        &:hover {
+            &:after {
+                opacity: .7;
+            }
+
+            .btn_2 {
+                opacity: 1;
+                visibility: visible;
+                z-index: 99;
+            }
+        }
+    }
+    .Latest_War_bg_1{
+        @include background("../img/latest_war_img_1.png");
+    }
+    .single_war_text {
+        height: 100%;
+
+        h4 {
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: $font_stack_1;
+        }
+
+        a {
+            display: inline-block;
+            @include gradient_color;
+            font-size: 14px;
+            text-transform: capitalize;
+            margin-top: 8px;
+        }
+    }
+
+    .war_text_item {
+        margin-top: 25px;
+        @media #{$tab}{
+            img{
+                max-width: 50px;
+            }
+        }
+        @media #{$medium_device}{
+        
+        }
+        h2 {
+            font-size: 30px;
+            @media #{$tab}{
+                font-size: 20px;
+            }
+            @media #{$medium_device}{
+                font-size: 20px;
+            }
+        }
+
+        span {
+            margin: 0 15px;
+        }
+    }
+
+    .latest_war_list {
+        @media #{$tab}{
+            margin-bottom: 40px;
+        }
+        .war_text_item {
+            padding-left: 43px;
+            
+            @media #{$tab}{
+                padding-left: 0;
+            }
+            @media #{$small_mobile}{
+                padding-left: 0;
+                display: block !important;
+                text-align: center;
+            }
+            img{
+                max-width: 50px;
+            }
+            h2{
+                font-size: 16px;
+            }
+            .war_date{
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,38 @@
+/**************** upcomming war css start ****************/
+.upcomming_war {
+    background-image: url(../img/event_bg.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .upcomming_war_iner {
+        height: 725px;
+        @media #{$tab}{
+            height: 350px;
+        }
+        @media #{$medium_device}{
+            height: 450px;
+        }
+        h2{
+            margin-bottom: 25px;
+            @media #{$tab}{
+                font-size: 25px;
+            }
+            @media #{$medium_device}{
+                font-size: 29px;
+            }
+        }
+    }
+    span {
+        display: block;
+        font-size: 20px;
+        color: white;
+    }
+    #days {
+        font-size: 48px;
+        color: #ffffff;
+    }
+    #hours {
+        font-size: 48px;
+        color: #fff;
+    }
+}

@@ -1,0 +1,106 @@
+/************use_sasu css start***************/
+.pricing_part {
+    position: relative;
+    z-index: 1;
+    position: relative;
+    z-index: 99;
+
+    .single_pricing_part {
+        text-align: center;
+        padding: 35px 35px 60px;
+        background-color: rgb(11, 17, 31);
+        position: relative;
+        z-index: 1;
+        background-image: url(../img/pricing_bg.png);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        @media #{$tab} {
+            padding: 20px 15px;
+            margin-bottom: 15px;
+        }
+        @media #{$medium_device} {
+            padding: 20px;
+        }
+        img {
+            margin-bottom: 18px;
+            height: 65px;
+        }
+        p {
+            color: $white_color;
+            font-size: 18px;
+            text-transform: capitalize;
+            margin-bottom: 55px;
+            font-family: $font_stack_2;
+            font-weight: 700;
+            @media #{$tab} {
+                margin-bottom: 25px;
+            }
+    
+            @media #{$medium_device} {
+                
+            }
+        }
+
+        h3 {
+            font-size: 36px;
+            font-weight: 600;
+            span {
+                font-size: 16px;
+                color: #919191;
+                font-weight: 400;
+            }
+        }
+          
+        .btn_2 {
+            padding: 18.5px 42px;
+            background-color: transparent;
+            color: $white_color;
+            border: 2px solid;
+            border-image: linear-gradient(to left, #ff0000 0%, #c6019a 100%, );
+            border-image-slice: 1;
+
+            &:hover {
+                background: linear-gradient(to left, #ff0000 0%, #c6019a 100%, );
+            }
+
+            @media #{$tab} {
+                padding: 10px 30px;
+            }
+
+            @media #{$medium_device} {
+                padding: 10px 12px;
+            }
+        }
+
+        ul {
+            margin: 16px 0 22px;
+            padding-top: 37px;
+            @media #{$tab} {
+                margin: 16px 0;
+                padding-top: 0;
+            }
+            @media #{$medium_device} {
+                margin: 20px 0;
+                padding-top: 0;
+            }
+            li {
+                font-size: 14px;
+                color: #7f7f7f;
+                text-transform: capitalize;
+                padding: 15px 0;
+                border-bottom: 1px dotted;
+                &:last-child{
+                    border: 0px solid transparent;
+                }
+            }
+        }
+    }
+}
+
+.single_page_pricing {
+    .left_shape_1 {
+        display: none;
+    }
+}

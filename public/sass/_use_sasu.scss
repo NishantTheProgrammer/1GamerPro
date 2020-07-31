@@ -1,0 +1,102 @@
+/************use_sasu css start***************/
+.use_sasu {
+    position: relative;
+    z-index: 1;
+    position: relative;
+    z-index: 99;
+    
+    .feature_icon_1{
+        position: absolute;
+        left: 22%;
+        top: 42%;
+        z-index: -1;
+      }
+      
+      .feature_icon_2{
+        right: 20%;
+        top: 50%;
+        position: absolute;
+        z-index: -1;
+      }
+      .feature_icon_3{
+        position: absolute;
+        left: 3%;
+        z-index: -1;
+        bottom: 70%;
+      }
+      .feature_icon_4{
+        position: absolute;
+        right: 15%;
+        top: 7%;
+        z-index: -1;
+      }
+    .single_feature_part {
+        padding: 40px 25px 31px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0px 3px 81px 0px rgba(216, 216, 216, 0.45);
+        @include transform_time(.6s);
+        background-color: $white_color;
+        @media #{$small_mobile} {
+            padding: 25px 10px;
+            margin-top: 25px;
+        }
+
+        @media #{$large_mobile} {
+            padding: 30px 15px;
+            margin-top: 25px;
+        }
+
+        @media #{$tab_device} {
+            padding: 30px 25px;
+            margin-top: 25px;
+        }
+
+        @media #{$medium_device} {
+            margin-top: 25px;
+        }
+
+
+        img {
+            margin-bottom: 21px;
+            height: 65px;
+            @media #{$tab} {
+                margin-bottom: 21px;
+            }
+
+            @media #{$medium_device} {}
+
+            i {
+                color: $icon_color;
+                font-size: 24px;
+                @include transform_time(.6s);
+            }
+        }
+
+        h4 {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 22px;
+
+            @media #{$small_mobile} {
+                margin-bottom: 15px;
+            }
+
+            @media #{$large_mobile} {
+                margin-bottom: 15px;
+            }
+
+            @media #{$tab_device} {
+                margin-bottom: 15px;
+            }
+
+            @media #{$medium_device} {}
+        }
+
+        p {
+            color: $font_3;
+            line-height: 1.8;
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+/**************** extend css start ****************/
+%custom_btn_bg_1{
+    background-image: -webkit-gradient(linear, right top, left top, from(#ff0000), color-stop(51%, #c6019a), to(#ff0000));
+    background-image: -webkit-linear-gradient(right, #ff0000 0%, #c6019a 51%, #ff0000 100%);
+    background-image: -o-linear-gradient(right, #ff0000 0%, #c6019a 51%, #ff0000 100%);
+    background-image: linear-gradient(to left, #ff0000 0%, #c6019a 51%, #ff0000 100%);  
+}
+%custom_btn_bg{
+    background-image: -webkit-gradient(linear, right top, left top, from(#c6019a), to(#ff0000));
+    background-image: -webkit-linear-gradient(right, #c6019a 0%, #ff0000 100%);
+    background-image: -o-linear-gradient(right, #c6019a 0%, #ff0000 100%);
+    background-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);  
+}
+%custom_btn_bg_2{
+    background-image: -webkit-gradient(linear, right top, left top, from(#57ddff), color-stop(51%, #57ddff), to(#57ddff));
+    background-image: -webkit-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
+    background-image: -o-linear-gradient(right, #57ddff 0%, #57ddff 51%, #57ddff 100%);
+    background-image: linear-gradient(to left, #57ddff 0%, #57ddff 51%, #57ddff 100%);  
+}
+%custom_btn_bg_3{
+    background-image: -webkit-gradient(linear, right top, left top, from(#fff), color-stop(51%, #fff), to(#fff));
+    background-image: -webkit-linear-gradient(right, #fff 0%, #fff 51%, #fff 100%);
+    background-image: -o-linear-gradient(right, #fff 0%, #fff 51%, #fff 100%);
+    background-image: linear-gradient(to left, #fff 0%, #fff 51%, #fff 100%);  
+}
+%dark_bg{
+    background: -moz-linear-gradient( 16deg, #000 0%, #000  100%);
+    background: -webkit-linear-gradient( 16deg, #000  0%, #000  100%);
+    background: -ms-linear-gradient( 16deg, #000 0%, #000  100%);
+}
+  
+%overlay_bg{
+    background: -moz-linear-gradient( 16deg, rgb(250,113,205) 0%, rgb(181,77,243) 100%);
+    background: -webkit-linear-gradient( 16deg, rgb(250,113,205) 0%, rgb(181,77,243) 100%);
+    background: -ms-linear-gradient( 16deg, rgb(250,113,205) 0%, rgb(181,77,243) 100%);
+}
+%pricing_btn_bg_bg {
+    background: -moz-linear-gradient( 90deg, rgb(173,35,254) 0%, rgb(250,96,199) 100%);
+    background: -webkit-linear-gradient( 90deg, rgb(173,35,254) 0%, rgb(250,96,199) 100%);
+    background: -ms-linear-gradient( 90deg, rgb(173,35,254) 0%, rgb(250,96,199) 100%);
+    box-shadow: 0px 8px 15px 0px rgba(180, 41, 248, 0.25);
+}
+  
+%icon_bg{
+    background: -moz-linear-gradient( 45deg, rgb(173,35,254) 0%, rgb(250,96,199) 100%);
+    background: -webkit-linear-gradient( 45deg, rgb(173,35,254) 0%, rgb(250,96,199) 100%);
+    background: -ms-linear-gradient( 45deg, rgb(173,35,254) 0%, rgb(250,96,199) 100%);
+}
+
+/**************** extend css start ****************/

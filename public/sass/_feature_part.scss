@@ -1,0 +1,210 @@
+/**************** service_part css start ****************/
+.feature_part {
+  position: relative;
+  z-index: 1;
+  .feature_icon_1{
+    position: absolute;
+    left: 19%;
+    top: 50%;
+    z-index: -1;
+  }
+  
+  .feature_icon_2{
+    left: 35%;
+    top: 23%;
+    position: absolute;
+    z-index: -1;
+  }
+  .feature_icon_3{
+    position: absolute;
+    left: 48%;
+    z-index: -1;
+    bottom: 18%;
+  }
+  .feature_icon_4{
+    position: absolute;
+    right: 35%;
+    top: 7%;
+    z-index: -1;
+  }
+   .feature_part_text {
+      @media #{$small_mobile} {
+        padding-left: 0;
+      }
+  
+      @media #{$large_mobile} {
+        padding-left: 0;
+      }
+  
+      @media #{$tab_device} {
+        padding-left: 0;
+      }
+  
+      @media #{$medium_device} {
+        padding-left: 0;
+      }
+  
+      h2 {
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 1.1;
+        margin-bottom: 21px;
+        position: relative;
+        text-transform: capitalize;
+        @media #{$small_mobile} {
+          font-size: 25px;
+          margin-bottom: 10px;
+          line-height: 35px;
+          margin-top: 15px;
+        }
+  
+        @media #{$large_mobile} {
+          font-size: 25px;
+          margin-bottom: 10px;
+          line-height: 35px;
+          margin-top: 20px;
+        }
+  
+        @media #{$tab_device} {
+          font-size: 25px;
+          margin-bottom: 10px;
+          line-height: 35px;
+          margin-top: 20px;
+        }
+  
+        @media #{$medium_device} {
+          font-size: 28px;
+          margin-bottom: 20px;
+          line-height: 40px;
+        }
+      }
+      p{
+        margin-bottom: 46px;
+      }
+      .feature_part_text_iner{
+        border-radius: 50px;
+        border-top-right-radius: 0;
+        border: 1px solid #eeeeee;
+        text-align: center;
+        padding: 34px 27px 31px;
+        @include transform_time(.5s);
+        @media #{$tab}{
+          padding: 20px 15px 15px;
+          margin-bottom: 15px;
+        }
+        @media #{$medium_device}{
+        
+        }
+        &:hover{
+          border: 1px solid $btn_bg;
+        }
+        h4{
+          font-size: 40px;
+          font-weight: 700;
+          font-family: $font_stack_1;
+        }
+        p{
+          margin-bottom: 0;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.667;
+        }
+      }
+  
+    }
+    .single_feature{
+      margin: 0 11px;
+      @media #{$tab} {
+        margin: 0;
+     }
+
+     @media #{$medium_device} {
+      margin: 0;
+     }
+      &:nth-child(2){
+        margin-top: 60px;  
+        @media #{$tab} {
+          margin-top: 30px;
+       }
+  
+       @media #{$medium_device} {
+        margin-top: 30px;
+       }
+      }
+    }
+   .single_feature_part {
+      padding: 40px 25px 31px;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0px 3px 81px 0px rgba(216, 216, 216, 0.45);
+      background-color: $white_color;
+      @include transform_time(.6s);
+      @media #{$tab} {
+         padding: 25px 15px;
+         margin-top: 25px;
+      }
+
+      @media #{$medium_device} {
+         margin-top: 25px;
+      }
+      
+      
+      img {
+         margin-bottom: 21px;
+         height: 65px;
+         @media #{$tab} {
+            margin-bottom: 21px;
+         }
+   
+         @media #{$medium_device} {
+   
+         }
+         i{
+            color: $icon_color;
+            font-size: 24px;
+            @include transform_time(.6s);
+         }
+      }
+      h4 {
+         font-weight: 600;
+         font-size: 20px;
+         margin-bottom: 22px;
+         @media #{$small_mobile} {
+            margin-bottom: 15px;
+         }
+   
+         @media #{$large_mobile} {
+            margin-bottom: 15px;
+         }
+   
+         @media #{$tab_device} {
+            margin-bottom: 15px;
+         }
+   
+         @media #{$medium_device} {
+   
+         }
+      }
+
+      p {
+         color: $font_3;
+         line-height: 1.8;
+         font-size: 15px;
+      }
+   }
+}
+.single_feature_padding{
+   padding-top: 140px;
+   @media #{$small_mobile}{
+      padding-top: 70px;
+   }
+   @media #{$large_mobile}{
+      padding-top: 70px;
+   }
+   @media #{$tab_device}{
+      padding-top: 70px;
+   }
+   @media #{$medium_device}{
+      padding-top: 70px;
+   }
+}
